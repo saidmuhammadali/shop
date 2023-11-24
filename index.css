@@ -1,0 +1,102 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+.p {
+  color: rgb(222, 15, 15);
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+.back {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box1 {
+  width: 250px;
+  height: 250px;
+  background-color: #ddd;
+  margin: 30px;
+}
+.h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.button {
+  border: none;
+  color: blue;
+  background-color: yellow;
+  width: 250px;
+  height: 30px;
+}
+.divbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 4rem;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  background-color: #ddd;
+  gap: 2rem;
+}
+.a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.footer {
+  height: 30px;
+  background-color: #ddd;
+  width: auto;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .box1 {
+    width: 90px;
+    height: 90px;
+  }
+  .img {
+    width: 90px;
+    height: 90px;
+  }
+  .p {
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  .h1 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .button {
+    width: 90px;
+    height: 30px;
+  }
+  .a {
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .nav {
+    width: auto;
+    height: 40px;
+  }
+  .footer {
+    width: auto;
+    height: 40px;
+  }
+}
